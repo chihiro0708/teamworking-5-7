@@ -1,4 +1,62 @@
-h1{
-font-size:250%;
-width:640px;
+/* 全体のフォントと背景 */
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー */
+header {
+  background-color: #ffcccb;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 4px dashed #f88379;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #d60000;
+}
+
+header p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+/* 各カード（ポイント） */
+.card {
+  background-color: #fff;
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+  border-left: 10px solid #ffb347;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #ff6600;
+}
+
+.card p {
+  font-size: 1.1em;
+}
+
+/* フッター */
+footer {
+  background-color: #ffefc1;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  border-top: 4px dotted #f5b800;
 }
